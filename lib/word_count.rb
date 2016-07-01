@@ -12,6 +12,7 @@ class String
         counter = counter.+(1)
       end
     end
-    counter.to_s()
+    counter = counter.to_s()
+    # binding.pry
   end
 end
