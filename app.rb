@@ -10,7 +10,7 @@ end
 
 get('/results') do
   @word = params.fetch('input')
-  @phrase = params.fetch('phrase')
+  @phrase = params.fetch('list')
   @results = @word.count(@phrase)
   erb(:results)
 end
