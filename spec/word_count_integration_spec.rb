@@ -5,6 +5,7 @@ set(:show_exceptions, false)
 
 describe('the search for a word',{:type => :feature}) do
   it ('should first load the index') do
+    visit('/')
     expect(page).to have_content("Check your frequency")
   end
 end

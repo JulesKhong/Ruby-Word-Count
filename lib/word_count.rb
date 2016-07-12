@@ -12,7 +12,7 @@ class String
         counter = counter.push(each_phrase_word)
       end
     end
-    total = counter.length().to_s()
+    total = counter.length()
     total
   end
 end
